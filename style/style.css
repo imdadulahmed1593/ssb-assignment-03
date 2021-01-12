@@ -38,13 +38,13 @@ Header
   text-align: right;
   margin-top: -10px;
 }
-.menu-contact {
+.menu-upper {
   margin-bottom: 30px;
 }
-.menu-contact img {
+.menu-upper img {
   vertical-align: middle;
 }
-.menu-contact span {
+.menu-upper span {
   margin-left: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 20.83px;
@@ -126,20 +126,20 @@ Body 1
 }
 
 /*cat left section*/
-.cat-left {
+.left {
   width: 50%;
   margin-right: 0px;
   position: relative;
 }
-.cat-left img {
+.left img {
   width: 100%;
 }
-.category-img-desc {
+.img__desc {
   position: absolute;
   top: 40px;
   left: 40px;
 }
-.category-img-desc h3 {
+.img__desc h3 {
   font-family: "Bebas Neue", cursive;
   color: #fffffb;
   text-transform: uppercase;
@@ -148,7 +148,7 @@ Body 1
   letter-spacing: 2px;
   margin-bottom: -8px;
 }
-.category-img-desc h1 {
+.img__desc h1 {
   font-family: "Bebas Neue", cursive;
   color: #fffffb;
   font-size: 35px;
@@ -160,27 +160,27 @@ Body 1
 }
 
 /*cat right section*/
-.cat-right {
+.right {
   padding-left: 40px;
   width: 50%;
   position: relative;
 }
-.cat-right img {
+.right img {
   width: 100%;
 }
-.cat-right-top {
+.right-top {
   margin-bottom: 30px;
   position: relative;
 }
-.cat-right-bottom {
+.right-bottom {
   position: relative;
 }
-.cat-right-top .category-img-desc {
+.right-top .img__desc {
   position: absolute;
   top: 20px;
   left: 20px;
 }
-.cat-right-bottom .category-img-desc {
+.right-bottom .img__desc {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -307,9 +307,8 @@ Body 2
   border: 2px inset #cc0000;
   border-radius: 50px;
   transition: 0.5s ease-out;
-  font-size: 21px;
+
   cursor: pointer;
-  /* transform: scale3d(1.15, 1.15, 1.15); */
 }
 
 /**********************
@@ -325,13 +324,13 @@ Slider
   padding: 30px;
   box-shadow: 10px 10px 24px -4px rgb(0, 0, 0, 0.2);
 }
-.slider-left {
+.slider__left {
   width: 50%;
 }
-.slider-text {
+.slider__text {
   margin-right: 25px;
 }
-.slider-text h3 {
+.slider__text h3 {
   font-family: "Bebas Neue", cursive;
   font-weight: 700;
   font-size: 30px;
@@ -339,7 +338,7 @@ Slider
   line-height: 17px;
   text-transform: uppercase;
 }
-.slider-text h1 {
+.slider__text h1 {
   font-family: "Alfa Slab One", cursive;
   font-weight: 400;
   font-size: 42px;
@@ -347,17 +346,17 @@ Slider
   margin-bottom: 30px;
   text-transform: uppercase;
 }
-.slider-text p {
+.slider__text p {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 21px;
+  font-size: 16px;
   color: #3d3d3d;
 }
-.slider-dot {
+.slider__dot {
   margin-top: 90px;
 }
 
-.slider-right {
+.slider__right {
   width: 50%;
 }
 
@@ -377,7 +376,7 @@ Contact form
   padding: 0px 0px 80px 0px;
   text-align: center;
 }
-.form-list {
+.form__list {
   margin: 0 auto;
 }
 input {
@@ -426,7 +425,7 @@ form .line3 {
   border-radius: 5px;
 } */
 
-.form-left {
+.form__left {
   float: left;
 
   margin-right: 30px;
@@ -437,7 +436,7 @@ form .line3 {
   font-weight: 400;
   color: #717171;
 }
-.form-right {
+.form__right {
   float: right;
 
   font-family: georgia;
@@ -476,7 +475,7 @@ form .line3 {
   font-size: 25px;
   cursor: pointer;
 }
-.form-list ::placeholder {
+.form__list ::placeholder {
   font-family: "Bebas Neue", cursive;
   color: #717171;
   font-weight: 400;
@@ -484,7 +483,7 @@ form .line3 {
   text-indent: 25px;
 }
 
-.form-list :focus {
+.form__list :focus {
   outline: 0px;
   background: transparent;
   color: black;
@@ -496,7 +495,7 @@ Footer
 .footer {
   width: 100%;
 }
-.footer-content {
+.footer__content {
   width: 100%;
   height: 455px;
   background-image: url("../Images/Footer.png");
@@ -510,21 +509,21 @@ Footer
 }
 
 /******footer left******/
-.footer-left {
+.footer__left {
   width: 50%;
   margin: 80px 0px 0px 45px;
 }
 
-.footer-left .logo {
+.footer__left .logo {
 }
-.footer-left .logo img {
+.footer__left .logo img {
   margin-left: -55px;
 }
 
-.footer-left .pera {
+.footer__left .footer__para {
   margin: 45px 100px 110px 0px;
 }
-.footer-left .pera p {
+.footer__left .footer__para p {
   text-align: justify;
   color: rgb(255, 255, 255, 0.75);
   font-family: "Montserrat", sans-serif;
@@ -533,9 +532,9 @@ Footer
   line-height: 20px;
 }
 
-.footer-left .copyright {
+.footer__left .copyright {
 }
-.footer-left .copyright p {
+.footer__left .copyright p {
   text-align: left;
   color: rgb(255, 255, 255, 0.8);
   font-family: "Bebas Neue", cursive;
@@ -545,23 +544,23 @@ Footer
 }
 
 /******footer right******/
-.footer-right {
+.footer__right {
   width: 50%;
   margin-top: 240px;
 }
 
-.footer-right .address {
+.footer__right .address {
   margin-left: 165px;
   margin-top: -33px;
 }
-.footer-right .address .address-loc {
+.footer__right .address .footer__address {
   display: flex;
   margin-bottom: 12px;
 }
-.footer-right .address .address-loc img {
+.footer__right .address .footer__address img {
   vertical-align: middle;
 }
-.footer-right .address .address-loc p {
+.footer__right .address .footer__address p {
   text-align: left;
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
@@ -571,13 +570,13 @@ Footer
   margin-left: 30px;
   vertical-align: middle;
 }
-.footer-right .address .address-mail {
+.footer__right .address .footer__mail {
   display: flex;
 }
-.footer-right .address .address-mail img {
+.footer__right .address .footer__mail img {
   vertical-align: middle;
 }
-.footer-right .address .address-mail p {
+.footer__right .address .footer__mail p {
   text-align: left;
   color: rgb(255, 255, 255);
   font-family: "Bebas Neue", cursive;
@@ -588,15 +587,15 @@ Footer
   vertical-align: middle;
 }
 
-.footer-right .socialicon {
+.footer__right .social__icon {
   margin: 120px 30px 20px 320px;
 }
-.footer-right .socialicon ul li {
+.footer__right .social__icon ul li {
   list-style: none;
   display: inline-block;
   margin-right: 10px;
 }
-.footer-right .socialicon ul li a i {
+.footer__right .social__icon ul li a i {
   color: black;
   height: 30px;
   width: 30px;
@@ -607,10 +606,23 @@ Footer
   border: 1.5px solid white;
   transition: 1.5s linear;
 }
-.footer-right .socialicon ul li a i:hover {
+.footer__right .social__icon ul li a i:hover {
   border: 0.25px solid #cc0000;
   background-color: gold;
   color: #cc0000;
   transform: scale(1.5);
   transition: all 1s cubic-bezier(1, -1.4, 0, 2.2);
+}
+
+@media (max-width: 800px) {
+  html {
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+  }
+  .slider-content {
+    width: 100%;
+  }
 }
